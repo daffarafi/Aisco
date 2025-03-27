@@ -16,5 +16,11 @@ features
 			Donation {abstract true}
 				alternative
 					DirectPayment
-					PaymentGateway
+					PaymentGateway {abstract true}
+						mandatory
+							BankVirtualAccount
+			RecurringDonation {abstract true}
+				or
+					WeeklyDonation
+					MonthlyDonation
 

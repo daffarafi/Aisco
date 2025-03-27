@@ -7,7 +7,11 @@
 	<feature automatic="selected" name="FinancialReport"/>
 	<feature automatic="selected" name="Income"/>
 	<feature manual="selected" name="Expense"/>
-	<feature automatic="selected" name="Donation"/>
+	<feature automatic="selected" manual="selected" name="Donation"/>
 	<feature automatic="unselected" name="DirectPayment"/>
 	<feature manual="selected" name="PaymentGateway"/>
+	<feature automatic="selected" name="BankVirtualAccount"/>
+	<feature name="RecurringDonation"/>
+	<feature name="WeeklyDonation"/>
+	<feature name="MonthlyDonation"/>
 </configuration>

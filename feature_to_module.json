@@ -1,0 +1,29 @@
+{
+	"Program": [
+		"aisco.program.core"
+	],
+	"Activity": [
+		"aisco.program.activity"
+	],
+	"Operational": [
+		"aisco.program.operational"
+	],
+	"FinancialReport": [
+		"aisco.financialreport.core"
+	],
+	"Income": [
+		"aisco.financialreport.income"
+	],
+	"Expense": [
+		"aisco.financialreport.expense"
+	],
+	"Donation": [
+		"aisco.donation.core"
+	],
+	"DirectPayment":[
+		"aisco.donation.core"
+	],
+	"PaymentGateway": [
+		"aisco.donation.pgateway"
+	]
+}

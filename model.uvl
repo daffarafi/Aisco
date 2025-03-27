@@ -1,0 +1,20 @@
+namespace AISCO
+
+features
+	AISCO {abstract true}
+		mandatory
+			Program {abstract true}
+				or
+					Activity
+					Operational
+			FinancialReport {abstract true}
+				mandatory
+					Income
+				optional
+					Expense
+		optional
+			Donation {abstract true}
+				alternative
+					DirectPayment
+					PaymentGateway
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="AISCO"/>
+	<feature automatic="selected" name="Program"/>
+	<feature manual="selected" name="Activity"/>
+	<feature name="Operational"/>
+	<feature automatic="selected" name="FinancialReport"/>
+	<feature automatic="selected" name="Income"/>
+	<feature manual="selected" name="Expense"/>
+	<feature name="Donation"/>
+	<feature name="DirectPayment"/>
+	<feature name="PaymentGateway"/>
+</configuration>

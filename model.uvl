@@ -17,10 +17,8 @@ features
 				alternative
 					DirectPayment
 					PaymentGateway {abstract true}
-						mandatory
+						or
 							BankVirtualAccount
-			RecurringDonation {abstract true}
-				or
-					WeeklyDonation
-					MonthlyDonation
+							PhoneNumberEWallet
+							PayPal
 

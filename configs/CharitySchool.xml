@@ -7,10 +7,12 @@
 	<feature automatic="selected" name="FinancialReport"/>
 	<feature automatic="selected" name="Income"/>
 	<feature manual="selected" name="Expense"/>
-	<feature automatic="selected" manual="selected" name="Donation"/>
-	<feature automatic="unselected" name="DirectPayment"/>
-	<feature manual="selected" name="PaymentGateway"/>
-	<feature automatic="selected" name="BankVirtualAccount"/>
+	<feature name="Donation"/>
+	<feature name="DirectPayment"/>
+	<feature name="PaymentGateway"/>
+	<feature name="BankVirtualAccount"/>
+	<feature name="PhoneNumberEWallet"/>
+	<feature name="PayPal"/>
 	<feature name="RecurringDonation"/>
 	<feature name="WeeklyDonation"/>
 	<feature name="MonthlyDonation"/>

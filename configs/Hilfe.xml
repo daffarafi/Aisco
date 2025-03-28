@@ -9,9 +9,11 @@
 	<feature name="Expense"/>
 	<feature automatic="selected" name="Donation"/>
 	<feature automatic="unselected" name="DirectPayment"/>
-	<feature manual="selected" name="PaymentGateway"/>
-	<feature automatic="selected" name="BankVirtualAccount"/>
+	<feature automatic="selected" manual="selected" name="PaymentGateway"/>
+	<feature manual="selected" name="BankVirtualAccount"/>
+	<feature name="PhoneNumberEWallet"/>
+	<feature name="PayPal"/>
 	<feature automatic="selected" manual="selected" name="RecurringDonation"/>
 	<feature manual="selected" name="WeeklyDonation"/>
-	<feature name="MonthlyDonation"/>
+	<feature manual="selected" name="MonthlyDonation"/>
 </configuration>

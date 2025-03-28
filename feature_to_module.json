@@ -24,6 +24,15 @@
 		"aisco.donation.core"
 	],
 	"PaymentGateway": [
-		"aisco.donation.pgateway"
+		"aisco.paymentgateway.core"
+	],
+	"PayPal": [ 
+		"aisco.paymentgateway.paypal"
+	],
+	"PhoneNumberEWallet": [ 
+		"aisco.paymentgateway.phonenumberewallet"
+	],
+	"BankVirtualAccount": [ 
+		"aisco.paymentgateway.bankvirtualaccount"
 	]
 }
